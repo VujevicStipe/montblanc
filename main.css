@@ -1,0 +1,168 @@
+*{
+    background-color: #060507;
+}
+
+/*.wlp{
+    position: absolute;
+    width: 1831.62px;
+    height: 1005.29px;
+}*/
+
+.background img{
+    z-index: -2;
+    position: absolute;
+    width: 1245px;
+    height: 600px;
+    left: 0;
+    top: 38%;
+    mix-blend-mode: luminosity;
+}
+
+.gold{
+    z-index: -3;
+    position: absolute;
+    width: 1245px;
+    height: 600px;
+    left: 0;
+    top: 38%;
+    background: linear-gradient(288.08deg, #9A6A44 55%, #FFF4BC 37.13%, #AB6516 53.13%, #9C3E09 86.04%, #E7D4A6 100%);
+    opacity: 90%;
+}
+
+.ellipse img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 2.37%;
+    top: 3.35%;
+}
+
+.vector img{
+    position: absolute;
+    background: none;
+    width: 50px;
+    height: 50px;
+    left: 2.66%;
+    top: 3.88%;
+}
+
+.stroke{
+    z-index: -1;
+    position: absolute;
+    width: 1410px;
+    height: 730px;
+    left: 120px;
+    top: 130px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+.logoNav{
+    position: absolute;
+    display: inline-flex;
+    margin-left: 60px;
+}
+
+.logo img{
+    width: 20px;
+    height: 25px;
+    margin-top: 50px;
+}
+
+.vektorL img{
+    width: 20px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+nav{
+    
+}
+
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 42px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-right: 35px;
+}
+
+nav ul li a{
+    
+}
+
+.navWlp img{
+    z-index: 0;
+    position: relative;
+    left: 25.5px;
+    width: 450px;
+}
+.navGold{
+    z-index: -1;
+    position: absolute;
+    left: 896px;
+    width: 450px;
+    background: linear-gradient(288.08deg, #9A6A44 0%, #FFF4BC 28.13%, #AB6516 53.13%, #9C3E09 76.04%, #E7D4A6 100%);
+}
+
+.sredina{
+    position: absolute;
+    display: flex;
+    top: 12%;
+}
+
+.sredina .m1 img{
+    width: 800px;
+    height: 500px;
+}
+
+.sredina .m2 img{
+    position: absolute;
+    z-index: 1;
+    padding-left: 60px;
+    width: 260px;
+    height: 500px;
+}
+
+.sredina .specName{
+    width: 420px;
+    height: 50px;
+    position: absolute;
+    left: 117%;
+    top: 79.6%;
+    display: flex;
+    transform: rotate(-90deg);
+}
+
+.sredina .txtSpec{
+    text-align: center;
+    width: 220px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 8px;
+}
+
+.sredina .specInfo{
+    width: 255px;
+    height: 422px;
+    background: none;
+    z-index: 0;
+    display: flex;
+    position: absolute;
+    top: 42.9%;
+    left: 146.4%;
+    color: white;
+    font-size: 20px;
+}
+
+
